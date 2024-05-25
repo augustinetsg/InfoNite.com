@@ -1,0 +1,232 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header styles */
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f4f4f9;
+}
+
+/* Hero section styles */
+#hero {
+    background-color: #343a40; /* Set a dark grey background */
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Uppercase text */
+    font-weight: bold; /* Bold text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
+}
+
+#hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
+}
+
+.cta-button {
+    background-color: #6c757d; /* Change button background color to grey */
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 2px solid #6c757d; /* Match border color with background color */
+    transition: background-color 0.3s, color 0.3s;
+    text-transform: uppercase; /* Uppercase text */
+    font-weight: bold; /* Bold text */
+}
+
+.cta-button:hover {
+    background-color: #495057; /* Darker shade of grey on hover */
+    border-color: #495057; /* Darker shade of grey on hover */
+}
+
+/* About section styles */
+#about {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+/* Services section styles */
+#services {
+    background-color: #f4f4f9;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.service {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 40px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+}
+
+.service i {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ff6600;
+}
+
+.service h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.service p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+/* Contact section styles */
+#contact {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact input, #contact textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#contact button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact button:hover {
+    background-color: #ff9933; /* Darker shade of orange on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ff9933;
+}
